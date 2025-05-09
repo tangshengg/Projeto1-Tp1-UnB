@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1746820123 source:c:\users\andre\onedrive\desktop\projeto1_tp1_unb\main.cpp
+	<iostream>
+	"Exceptions.h"
+	"Conta.h"
+	"Carteira.h"
+	"Ordem.h"
+	"Dominio.h"
+
+1746819384 source:c:\users\andre\onedrive\desktop\projeto1_tp1_unb\dominio.cpp
+	"Dominio.h"
+	<stdexcept>
+	<regex>
+	<algorithm>
+	<cctype>
+	"Exceptions.h"
+
+1746817168 c:\users\andre\onedrive\desktop\projeto1_tp1_unb\dominio.h
+	<string>
+
+1746819035 c:\users\andre\onedrive\desktop\projeto1_tp1_unb\exceptions.h
+	<stdexcept>
+	<string>
+
+1746817868 c:\users\andre\onedrive\desktop\projeto1_tp1_unb\conta.h
+	"Dominio.h"
+
+1746818439 c:\users\andre\onedrive\desktop\projeto1_tp1_unb\carteira.h
+	"Dominio.h"
+	"Conta.h"
+	<vector>
+
+1746818298 c:\users\andre\onedrive\desktop\projeto1_tp1_unb\ordem.h
+	"Dominio.h"
+	"Carteira.h"
+
+1746819384 c:\users\andre\onedrive\desktop\projeto1_tp1_unb\dominio.cpp
+	"Dominio.h"
+	<stdexcept>
+	<regex>
+	<algorithm>
+	<cctype>
+	"Exceptions.h"
+
