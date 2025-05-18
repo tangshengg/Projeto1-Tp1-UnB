@@ -42,3 +42,69 @@
 	<cctype>
 	"Exceptions.h"
 
+1747612109 source:c:\users\andre\projeto1-tp1-unb\main.cpp
+	"TUDominio.h"
+	"TUEntidades.h"
+	<iostream>
+
+1747607717 c:\users\andre\projeto1-tp1-unb\exceptions.h
+	<stdexcept>
+	<string>
+
+1747607717 c:\users\andre\projeto1-tp1-unb\conta.h
+	"Dominio.h"
+
+1747607717 c:\users\andre\projeto1-tp1-unb\dominio.h
+	<string>
+
+1747607717 c:\users\andre\projeto1-tp1-unb\carteira.h
+	"Dominio.h"
+	"Conta.h"
+	<vector>
+
+1747607717 c:\users\andre\projeto1-tp1-unb\ordem.h
+	"Dominio.h"
+	"Carteira.h"
+
+1747607717 source:c:\users\andre\projeto1-tp1-unb\carteira.cpp
+	"Carteira.h"
+	"Ordem.h"
+	<algorithm>
+
+1747607717 source:c:\users\andre\projeto1-tp1-unb\conta.cpp
+	"Conta.h"
+
+1747611431 source:c:\users\andre\projeto1-tp1-unb\dominio.cpp
+	"Dominio.h"
+	<stdexcept>
+	<regex>
+	<algorithm>
+	<cctype>
+	"Exceptions.h"
+
+1747607717 source:c:\users\andre\projeto1-tp1-unb\ordem.cpp
+	"Ordem.h"
+
+1747611556 source:c:\users\andre\projeto1-tp1-unb\tudominio.cpp
+	"TUDominio.h"
+	"Dominio.h"
+	"Exceptions.h"
+	<iostream>
+	<string>
+
+1747611361 c:\users\andre\projeto1-tp1-unb\tudominio.h
+	"Dominio.h"
+	<string>
+
+1747612087 c:\users\andre\projeto1-tp1-unb\tuentidades.h
+	"Dominio.h"
+	"Conta.h"
+	"Carteira.h"
+	"Ordem.h"
+	"Exceptions.h"
+	<string>
+
+1747612096 source:c:\users\andre\projeto1-tp1-unb\tueentidades.cpp
+	"TUEntidades.h"
+	<iostream>
+
