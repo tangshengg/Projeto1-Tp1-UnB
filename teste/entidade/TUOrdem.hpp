@@ -19,7 +19,7 @@ private:
     void tearDown();
     void testarCenarioValido();
     void testarCenarioInvalido();
-    void testarBloqueioEdicao(); // Testa regra "Ordem não pode ser editada" (PDF)
+    void testarBloqueioEdicao(); // Testa regra "Ordem não pode ser editada" 
 
 public:
     int run();
