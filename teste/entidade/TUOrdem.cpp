@@ -48,16 +48,16 @@ void TUOrdem::testarCenarioInvalido() {
 void TUOrdem::testarBloqueioEdicao() {
     CodigoNegociacao codigo;
     codigo.setValor(CODIGO_VALIDO);
-    ordem->setCodigoNegociacao(codigo); // Primeira definição (OK)
+    ordem->setCodigoNegociacao(codigo); // Primeira definição 
 
-    // Tentativa de edição (deve falhar - requisito do PDF)
+    // Tentativa de edição (deve falhar)
     CodigoNegociacao novoCodigo;
     novoCodigo.setValor("VALE3");
     try {
         ordem->setCodigoNegociacao(novoCodigo); // Deve lançar std::logic_error
         estado = FALHA;
     } catch (std::logic_error& e) {
-        // OK: Comportamento esperado
+        
     } catch (...) {
         estado = FALHA; // Falhou se lançou outra exceção
     }
