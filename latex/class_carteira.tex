@@ -1,0 +1,205 @@
+\doxysection{Carteira Class Reference}
+\hypertarget{class_carteira}{}\label{class_carteira}\index{Carteira@{Carteira}}
+
+
+Classe que representa uma carteira de investimentos de um usuário.  
+
+
+
+
+{\ttfamily \#include $<$Carteira.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_carteira_a0d97fcf16c43e8773d3fc84aa74d6d3b}{set\+Codigo}} (\mbox{\hyperlink{class_codigo}{Codigo}})
+\begin{DoxyCompactList}\small\item\em Define o código da carteira. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_codigo}{Codigo}} \mbox{\hyperlink{class_carteira_a847fff1e04d680ac8d82d57e35f5a9ec}{get\+Codigo}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o código da carteira. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_carteira_a8bde314fc9cfc2dbe7758a046e45b8be}{set\+Nome}} (\mbox{\hyperlink{class_nome}{Nome}})
+\begin{DoxyCompactList}\small\item\em Define o nome do titular da carteira. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_nome}{Nome}} \mbox{\hyperlink{class_carteira_a6b5b193b73f1c00e190bc753e2eeda30}{get\+Nome}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o nome do titular da carteira. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_carteira_a11aaf02a21fe21a6a485dc84fbef10b7}{set\+Perfil}} (\mbox{\hyperlink{class_perfil}{Perfil}})
+\begin{DoxyCompactList}\small\item\em Define o perfil do investidor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_perfil}{Perfil}} \mbox{\hyperlink{class_carteira_a0efe6c8ceff14f580ebb6aad305acfcd}{get\+Perfil}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o perfil do investidor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_carteira_a5c03c5e8f9b40aa18c4c5af6a5e04649}{set\+Conta}} (\mbox{\hyperlink{class_conta}{Conta}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Define a conta associada à carteira. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_conta}{Conta}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_carteira_a3dc7b26dbefaceb92849f5413ea34ce2}{get\+Conta}} () const
+\begin{DoxyCompactList}\small\item\em Retorna o ponteiro para a conta associada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_carteira_abc8f755745734ed5ad071142d29035d7}{adicionar\+Ordem}} (\mbox{\hyperlink{class_ordem}{Ordem}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Adiciona uma ordem à carteira. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_carteira_a46b9422cf1111f5618269fe74b483733}{remover\+Ordem}} (\mbox{\hyperlink{class_ordem}{Ordem}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Remove uma ordem da carteira. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_ordem}{Ordem}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{class_carteira_ad0f2876d6187fc9f4abe9f4be0de012c}{get\+Ordens}} () const
+\begin{DoxyCompactList}\small\item\em Retorna todas as ordens associadas à carteira. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe que representa uma carteira de investimentos de um usuário. 
+
+A classe \doxylink{class_carteira}{Carteira} armazena informações pessoais do investidor, como código, nome e perfil, além da associação com uma conta bancária e uma lista de ordens. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_carteira_abc8f755745734ed5ad071142d29035d7}\index{Carteira@{Carteira}!adicionarOrdem@{adicionarOrdem}}
+\index{adicionarOrdem@{adicionarOrdem}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{adicionarOrdem()}{adicionarOrdem()}}
+{\footnotesize\ttfamily \label{class_carteira_abc8f755745734ed5ad071142d29035d7} 
+void Carteira\+::adicionar\+Ordem (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ordem}{Ordem}} \texorpdfstring{$\ast$}{*}}]{ordem}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona uma ordem à carteira. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ordem} & Ponteiro para a ordem a ser adicionada. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_carteira_a847fff1e04d680ac8d82d57e35f5a9ec}\index{Carteira@{Carteira}!getCodigo@{getCodigo}}
+\index{getCodigo@{getCodigo}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{getCodigo()}{getCodigo()}}
+{\footnotesize\ttfamily \label{class_carteira_a847fff1e04d680ac8d82d57e35f5a9ec} 
+\mbox{\hyperlink{class_codigo}{Codigo}} Carteira\+::get\+Codigo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retorna o código da carteira. 
+
+\begin{DoxyReturn}{Returns}
+Código da carteira. 
+\end{DoxyReturn}
+\Hypertarget{class_carteira_a3dc7b26dbefaceb92849f5413ea34ce2}\index{Carteira@{Carteira}!getConta@{getConta}}
+\index{getConta@{getConta}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{getConta()}{getConta()}}
+{\footnotesize\ttfamily \label{class_carteira_a3dc7b26dbefaceb92849f5413ea34ce2} 
+\mbox{\hyperlink{class_conta}{Conta}} \texorpdfstring{$\ast$}{*} Carteira\+::get\+Conta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retorna o ponteiro para a conta associada. 
+
+\begin{DoxyReturn}{Returns}
+Ponteiro para \doxylink{class_conta}{Conta}. 
+\end{DoxyReturn}
+\Hypertarget{class_carteira_a6b5b193b73f1c00e190bc753e2eeda30}\index{Carteira@{Carteira}!getNome@{getNome}}
+\index{getNome@{getNome}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily \label{class_carteira_a6b5b193b73f1c00e190bc753e2eeda30} 
+\mbox{\hyperlink{class_nome}{Nome}} Carteira\+::get\+Nome (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retorna o nome do titular da carteira. 
+
+\begin{DoxyReturn}{Returns}
+\doxylink{class_nome}{Nome} do titular. 
+\end{DoxyReturn}
+\Hypertarget{class_carteira_ad0f2876d6187fc9f4abe9f4be0de012c}\index{Carteira@{Carteira}!getOrdens@{getOrdens}}
+\index{getOrdens@{getOrdens}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{getOrdens()}{getOrdens()}}
+{\footnotesize\ttfamily \label{class_carteira_ad0f2876d6187fc9f4abe9f4be0de012c} 
+vector$<$ \mbox{\hyperlink{class_ordem}{Ordem}} \texorpdfstring{$\ast$}{*} $>$ Carteira\+::get\+Ordens (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retorna todas as ordens associadas à carteira. 
+
+\begin{DoxyReturn}{Returns}
+Vetor de ponteiros para Ordens. 
+\end{DoxyReturn}
+\Hypertarget{class_carteira_a0efe6c8ceff14f580ebb6aad305acfcd}\index{Carteira@{Carteira}!getPerfil@{getPerfil}}
+\index{getPerfil@{getPerfil}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{getPerfil()}{getPerfil()}}
+{\footnotesize\ttfamily \label{class_carteira_a0efe6c8ceff14f580ebb6aad305acfcd} 
+\mbox{\hyperlink{class_perfil}{Perfil}} Carteira\+::get\+Perfil (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Retorna o perfil do investidor. 
+
+\begin{DoxyReturn}{Returns}
+\doxylink{class_perfil}{Perfil} do investidor. 
+\end{DoxyReturn}
+\Hypertarget{class_carteira_a46b9422cf1111f5618269fe74b483733}\index{Carteira@{Carteira}!removerOrdem@{removerOrdem}}
+\index{removerOrdem@{removerOrdem}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{removerOrdem()}{removerOrdem()}}
+{\footnotesize\ttfamily \label{class_carteira_a46b9422cf1111f5618269fe74b483733} 
+void Carteira\+::remover\+Ordem (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ordem}{Ordem}} \texorpdfstring{$\ast$}{*}}]{ordem}{}\end{DoxyParamCaption})}
+
+
+
+Remove uma ordem da carteira. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ordem} & Ponteiro para a ordem a ser removida. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_carteira_a0d97fcf16c43e8773d3fc84aa74d6d3b}\index{Carteira@{Carteira}!setCodigo@{setCodigo}}
+\index{setCodigo@{setCodigo}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{setCodigo()}{setCodigo()}}
+{\footnotesize\ttfamily \label{class_carteira_a0d97fcf16c43e8773d3fc84aa74d6d3b} 
+void Carteira\+::set\+Codigo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_codigo}{Codigo}}}]{codigo}{}\end{DoxyParamCaption})}
+
+
+
+Define o código da carteira. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em codigo} & Código a ser atribuído. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_carteira_a5c03c5e8f9b40aa18c4c5af6a5e04649}\index{Carteira@{Carteira}!setConta@{setConta}}
+\index{setConta@{setConta}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{setConta()}{setConta()}}
+{\footnotesize\ttfamily \label{class_carteira_a5c03c5e8f9b40aa18c4c5af6a5e04649} 
+void Carteira\+::set\+Conta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_conta}{Conta}} \texorpdfstring{$\ast$}{*}}]{conta}{}\end{DoxyParamCaption})}
+
+
+
+Define a conta associada à carteira. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em conta} & Ponteiro para a conta. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_carteira_a8bde314fc9cfc2dbe7758a046e45b8be}\index{Carteira@{Carteira}!setNome@{setNome}}
+\index{setNome@{setNome}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily \label{class_carteira_a8bde314fc9cfc2dbe7758a046e45b8be} 
+void Carteira\+::set\+Nome (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_nome}{Nome}}}]{nome}{}\end{DoxyParamCaption})}
+
+
+
+Define o nome do titular da carteira. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & \doxylink{class_nome}{Nome} a ser atribuído. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_carteira_a11aaf02a21fe21a6a485dc84fbef10b7}\index{Carteira@{Carteira}!setPerfil@{setPerfil}}
+\index{setPerfil@{setPerfil}!Carteira@{Carteira}}
+\doxysubsubsection{\texorpdfstring{setPerfil()}{setPerfil()}}
+{\footnotesize\ttfamily \label{class_carteira_a11aaf02a21fe21a6a485dc84fbef10b7} 
+void Carteira\+::set\+Perfil (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_perfil}{Perfil}}}]{perfil}{}\end{DoxyParamCaption})}
+
+
+
+Define o perfil do investidor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em perfil} & \doxylink{class_perfil}{Perfil} a ser atribuído. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Carteira.\+h\item 
+Carteira.\+cpp\end{DoxyCompactItemize}

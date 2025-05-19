@@ -1,0 +1,59 @@
+\doxysection{Exceptions.\+h}
+\hypertarget{_exceptions_8h_source}{}\label{_exceptions_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ EXCEPTIONS\_H\_INCLUDED}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ EXCEPTIONS\_H\_INCLUDED}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <stdexcept>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_codigo_exception_a4b262f9704801bb68aa2209c8fc882cc}{CodigoException}}\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00013\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_codigo_exception_a4b262f9704801bb68aa2209c8fc882cc}{CodigoException}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00019\ \};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }CodigoNegociacaoException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ CodigoNegociacaoException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00027\ \};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{class\ }CpfException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00033\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00034\ \ \ \ \ CpfException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00035\ \};}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00040\ \textcolor{keyword}{class\ }DataException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00041\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00042\ \ \ \ \ DataException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00043\ \};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00048\ \textcolor{keyword}{class\ }NomeException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00049\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00050\ \ \ \ \ NomeException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00051\ \};}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00056\ \textcolor{keyword}{class\ }PerfilException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00057\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00058\ \ \ \ \ PerfilException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00059\ \};}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00064\ \textcolor{keyword}{class\ }DinheiroException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00065\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00066\ \ \ \ \ DinheiroException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00067\ \};}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00072\ \textcolor{keyword}{class\ }QuantidadeException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00073\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00074\ \ \ \ \ QuantidadeException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00075\ \};}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00080\ \textcolor{keyword}{class\ }SenhaException\ :\ \textcolor{keyword}{public}\ invalid\_argument\ \{}
+\DoxyCodeLine{00081\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00082\ \ \ \ \ SenhaException(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ msg)\ :\ invalid\_argument(msg)\ \{\}}
+\DoxyCodeLine{00083\ \};}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
